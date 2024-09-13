@@ -116,5 +116,4 @@ class Auth:
         self._db.update_user(
             user.id,
             hashed_password=new_password_hash,
-            reset_token=None,
-        )
+            reset_token=None,)
